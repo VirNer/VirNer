@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Assistant-Regular';
+    src:url('Assistant-Regular.ttf.woff') format('woff'),
+        url('Assistant-Regular.ttf.svg#Assistant-Regular') format('svg'),
+        url('Assistant-Regular.ttf.eot'),
+        url('Assistant-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Assistant-Regular';
+    background: url(fond.jpg) fixed;
+}
+
+.fond {
+    width: 90%;
+    height: 1450px;
+    margin: 4% auto 4% auto;
+    padding: 1% 2% 4% 2%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: black 6px 6px 6px;
+    min-width: 990px;
+    height: 1500px;
+}
+
+.photo {
+    padding: auto;
+    border: #101A4C outset 5px;
+    box-shadow: 8px 8px 8px black;
+}
+
+#photo {
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-left: 25px;
+    font-style: bold;
+    color: #335384;
+    font-size: 50px;
+}
+
+h2 {
+    margin-left: 10px;
+    font-style: bold;
+    color: #5ba7d1;
+    font-size: 35px;
+}
+
+}
+.progress {
+    position: absolute;
+    font-size: 20px;
+    appearance: none;
+}
+
+.formation {
+    margin-left: 30px;
+}
+
+.italic {
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.bold, .contact, .skills, .competences, .hobby{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lien {
+    text-decoration: none;
+    color: white;
+}
+
+.lien:hover{
+    color: #5ba7d1;
+}
+
+.left {
+    display: inline-block;
+    width: 30%;
+    background-color: #335384;
+    vertical-align: top;
+    height: 1320px;
+    min-width: 300px;
+    padding: 30px;
+    color: white;
+}
+
+/*Trouver une façon de rendre .left non transparent*/
+    
+.right {
+    padding-left: 30px;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top
+    }
+
+.rendezvous {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bouton {
+    color: #335384;
+    text-decoration: none;
+}
+
+button {
+    margin: 20px auto auto auto;
+    padding: 9px;
+    border-radius: 20px;
+    width: 160px;
+    font-size: 18px;
+}
+
+button :hover {
+    color: #5ba7d1;
+}
